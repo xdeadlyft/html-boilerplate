@@ -165,4 +165,96 @@ color: blue;
 
 }
 
+/*Start of page4.html */
+
+.box
+{
+    background-image: url(../images/birds2.jpeg);
+    
+    
+    color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 2000px 100px;
+    border: 2px solid black; 
+    height: 100px;
+ 
+}
+
+.body-text
+{
+    padding: 10px;
+    background-color: aliceblue;
+    margin-top: 20px;
+    
+}
+
+.body-text a
+{
+    color: green;
+    text-transform: lowercase;
+}
+
+
+.body-text a:hover
+{
+color: #105ae3;
+}
+
+.body-text2
+{
+    padding: 5px;
+    background-color: paleturquoise;
+    margin-top: -20px;
+    border-style: solid;
+   border-color: pink;
+}
+
+.body-text2 a
+{
+    color: blueviolet;
+   
+}
+
+.body-text2 a:hover
+{
+color: green;
+}
+
+.px
+{
+    line-height: 25px;
+    font-size: 18px;
+
+}
+
+.qx
+{
+    color:firebrick;
+    font-weight: bolder;
+   
+}
+
+.bolder
+{
+    font-weight: bolder;
+    text-decoration: line-through;
+    color:black
+}
+
+a
+{
+color: gray;
+font-weight: bolder;
+text-decoration:solid;
+text-transform: capitalize;
+font-size: 18px;
+
+}
+
+a:hover
+{
+color: red; 
+
+}
 
