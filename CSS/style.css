@@ -258,3 +258,23 @@ color: red;
 
 }
 
+/*Start of page5.html */
+
+.page5h2
+{
+    color: #027202;
+    font-size: 35px;
+    font-weight: 500px ;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 15px;
+}
+
+.page5h3
+{
+    color:blue;
+    font-size: 25px;
+    width: auto;
+    background:none;
+    margin-top: -25px;
+    margin-left: 30px;
+}
