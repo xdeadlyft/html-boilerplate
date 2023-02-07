@@ -124,3 +124,58 @@ margin-right: 4.5%;
   
 }
  
+.flex-container
+ {
+   display: flex;
+    align-items: center;
+   align-content: center;
+  
+   
+  }
+
+  .flex-container div 
+  {
+    flex: 1;
+    align-content: center;
+  }
+
+  .img1,
+  .img2,
+  .img3,
+  .img4
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%;
+  }
+
+  .item_one,
+  .item_two,
+  .item_three,
+  .item_four
+  {
+    font-size: 16px;
+    text-align: center;
+  }
+
+
+
+  .flex-container a
+  {
+    
+    background-color: transparent;
+   
+  }
+
+  .information,
+  .imagesrecipes
+  {
+    text-align: center;
+  }
+  
+  .information
+  {
+    margin-bottom: -5px;
+    font-size: 35px;
+  }
