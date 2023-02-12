@@ -59,6 +59,7 @@
   color: black;
   font-weight: bold;
   align-items: center;
+  justify-content: space-between;
    }
 
    .header1 a
