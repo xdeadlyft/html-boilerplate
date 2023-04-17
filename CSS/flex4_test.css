@@ -17,8 +17,19 @@
     grid-column: 1 / -1;
     background-color: #333;
     color: #fff;
-
     padding: 10px;
+  }
+
+  h1
+  {
+    font-size: 35px;
+    font-weight: 900;
+  }
+
+  p
+  {
+    width: 100%;
+    font-size: 18px;
   }
 
    /* set up main content container*/
@@ -26,50 +37,38 @@
     grid-column: 2 / -1;
     grid-row: 2 / 3;
     padding: 10px;
+   
   }
 
  /* set up textboxes inside container */
+
+.container1
+{
+ 
+  display: inline-block;
+  height: 48.5%;
+  
+}
+
+
+
+
   .textbox
   {
     
     flex-wrap: wrap;
-    padding: 10px;
+    padding:  15px 32px 32px 32px;
     border-radius: 10px;
     border-style: solid;
-    border-color: #333;
+    border-color: rgb(219, 213, 213);
     display: inline-block;
     width:25%;
-    height:fit-content;
-    margin-right: 5px;
+    height:90%;
+    margin-left: 2.5%;
     flex-shrink: 1;
   }
 
-  .textbox1
-  {
-    margin-top: 10px;
-    flex-wrap: wrap;
-    padding: 10px;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #333;
-    display: inline-block;
-    width:25%;
-    height:fit-content;
-    margin-right: 5px;
-  }
-
-  .textbox2
-  {
-    flex-wrap: wrap;
-    padding: 10px;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: #333;
-    display: inline-block;
-    width:25%;
-    height:fit-content;
-    margin-right: 5px;
-  }
+ 
 
   /* set up left sidebar */
   .sidebar-left {
@@ -92,6 +91,12 @@
   color:#333;
   font-size: 20px;
   
+ }
+
+ .menu1
+ {
+  list-style: none;
+  margin-left: 5px;
  }
 
 
