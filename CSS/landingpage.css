@@ -14,10 +14,7 @@ ul
     list-style: none;
 }
 
-.div_header_main
-{
-    
-}
+
 
 .div_header_container
 {
@@ -135,15 +132,178 @@ ul
     font-weight: 600;
     font-size: 22px;
     color:#F1F5FE;
-  margin-top: 2%;
+    margin-top: 2%;
 }
 
 .body2
 {
-    border: 1px solid red ;
+    justify-content: center;
+    align-items: center;
+}
+
+.body2_container_main
+{
+    
+    display: block;
+    width: 95%;
+    margin:auto;
 }
 
 .body2_container
 {
-    border: 1px solid blue ;
+   
+    width: 70%;
+    height: 70%;
+    margin:auto;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3%;
+}
+
+.random_information
+{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.card
+{
+    display:block;
+    width: 30%;
+    text-align: center;
+}
+
+
+.body2_img
+{
+    width: 60%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #155EEF;
+    display: inline-block;
+    padding:  15px 32px 32px 32px;
+}
+
+.img_desc
+{
+font-size: 22px;
+width: 80%;
+margin:auto;
+
+}
+
+.body3
+{
+    background-color: #d9d9d9;
+}
+
+.body3_container
+{
+width: 90%;
+margin:auto;
+padding-bottom: 3%;
+
+}
+
+
+.qoute
+{
+    padding: 32px 32px 32px 32px;
+    font-size: 35px;
+    width: 38%;
+    margin:auto;
+  
+    
+}
+
+.author
+{
+    font-size: 22px;
+    width: fit-content;
+    margin-left: 55%;
+    
+}
+
+.body4_container
+{
+ 
+    width:80%;
+    margin: auto;
+    padding: 100px 0 150px 32px;
+}
+
+.textbox_sub_container
+{
+    
+    display: block;
+    width: fit-content;
+}
+
+
+.textbox_container
+{
+    
+    box-sizing: border-box;
+    border: 1px solid #155EEF ;
+    background-color: #155EEF;
+    border-radius: 8px;
+    width:60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call_to_action
+{
+    padding: 32px 32px 0 32px;
+    color: #F1F5FE;
+    font-size: 25px;
+    font-family: 'Manrope';
+    font-style: normal;
+}
+
+.call_to_desc
+{
+    padding: 0 32px 32px 32px;
+    color: #3b3d3c;
+    font-size: 20px;
+    font-family: 'Manrope';
+    font-style: normal;
+}
+
+.sign_up2
+{
+    box-sizing: border-box;
+    padding: 8px 16px 8px 16px;
+    border: 1px solid #F1F5FE ;
+    background-color: #155EEF;
+    border-radius: 8px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    color:#F1F5FE;
+    width: 150px;
+}
+
+.footer_subcontainer
+{
+    background-color:#3b3d3c ;
+}
+
+.footer_subcontainer
+{
+    
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+    
+}
+
+.text_footer
+{
+    font-size: 18px;
+    color:#F1F5FE;
 }
